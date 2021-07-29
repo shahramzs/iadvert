@@ -1,7 +1,7 @@
 {
   "name": "advert",
-  "homepage": "http://advertt.freevar.com/",
-  "proxy": "http://advertt.freevar.com/",
+  "homepage": "http://iadvert.ir/",
+  "proxy": "http://iadvert.ir/",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -91,7 +91,7 @@
     "test": "react-scripts start",
     "build2": "react-scripts build",
     "mainstart": "concurrently \"serve -s public -l 4000\" \"php -S 127.0.0.1:8000\" \"nodemon server.php\" \"nodemon chat.php\" \"nodemon online.php\" \"nodemon offline.php\" \"nodemon imageSocket.php\" \"nodemon chatUser.php\" \"nodemon isTyping.php\" \"nodemon isNotTyping.php\"",
-    "mainstart2": "concurrently \"serve -s  public -l http://advertt.freevar.com/\" \"php -S 127.0.0.1:8000\" nodemon server.php\" \" nodemon chat.php\" \" nodemon online.php\" \" nodemon offline.php\" \" nodemon imageSocket.php\" \" nodemon chatUser.php\" \" nodemon isTyping.php\" \" nodemon isNotTyping.php\""
+    "mainstart2": "concurrently \"serve -s  public -l http://iadvert.ir/\" \"php -S 127.0.0.1:8000\" nodemon server.php\" \" nodemon chat.php\" \" nodemon online.php\" \" nodemon offline.php\" \" nodemon imageSocket.php\" \" nodemon chatUser.php\" \" nodemon isTyping.php\" \" nodemon isNotTyping.php\""
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -108,30 +108,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/helper-member-expression-to-functions": "^7.12.7",
-    "@babel/plugin-proposal-class-properties": "^7.12.1",
-    "@babel/plugin-syntax-top-level-await": "^7.12.13",
-    "@babel/plugin-transform-runtime": "^7.12.10",
-    "@babel/preset-env": "^7.0.0",
-    "@babel/preset-react": "^7.0.0",
-    "@babel/runtime": "^7.12.5",
-    "css-loader": "^5.0.1",
-    "css-minimizer-webpack-plugin": "^1.2.0",
-    "file-loader": "^6.2.0",
-    "html-minimizer-webpack-plugin": "^2.1.0",
-    "html-webpack-plugin": "^4.5.1",
-    "image-webpack-loader": "^7.0.1",
-    "parcel-bundler": "^1.12.4",
-    "raw-loader": "^4.0.2",
-    "react-hot-loader": "^4.13.0",
-    "react-snapshot": "^1.3.0",
-    "style-loader": "^2.0.0",
-    "terser-webpack-plugin": "^5.1.1",
-    "url-loader": "^4.1.1",
-    "webpack": "^5.21.1",
-    "webpack-cli": "^4.3.1",
-    "webpack-dev-server": "^3.11.1"
-  }
+ 
 }
