@@ -89,7 +89,7 @@
     "build": "webpack --mode production && echo ‘/* /index.html 200’ ",
     "eject": "./node_modules/.bin/webpack serve --content-base src",
     "test": "react-scripts start",
-    "build2": "react-scripts build --profile",
+    "build2": "react-scripts build",
     "mainstart": "concurrently \"serve -s public -l 4000\" \"php -S 127.0.0.1:8000\" \"nodemon server.php\" \"nodemon chat.php\" \"nodemon online.php\" \"nodemon offline.php\" \"nodemon imageSocket.php\" \"nodemon chatUser.php\" \"nodemon isTyping.php\" \"nodemon isNotTyping.php\"",
     "mainstart2": "concurrently \"serve -s  public -l http://advertt.freevar.com/\" \"php -S 127.0.0.1:8000\" nodemon server.php\" \" nodemon chat.php\" \" nodemon online.php\" \" nodemon offline.php\" \" nodemon imageSocket.php\" \" nodemon chatUser.php\" \" nodemon isTyping.php\" \" nodemon isNotTyping.php\""
   },
@@ -117,7 +117,7 @@
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "@babel/runtime": "^7.12.5",
-    "babel-loader": "^8.2.2",
+    "babel-loader": "^8.1.0",
     "css-loader": "^5.0.1",
     "css-minimizer-webpack-plugin": "^1.2.0",
     "file-loader": "^6.2.0",
