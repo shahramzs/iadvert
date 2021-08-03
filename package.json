@@ -85,7 +85,7 @@
     "dev10": "nodemon server.js",
     "eject": "./node_modules/.bin/webpack serve --content-base src",
     "test": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts --max_old_space_size=4096 build",
     "mainstart": "concurrently \"serve -s public -l 4000\" \"php -S 127.0.0.1:8000\" \"nodemon server.php\" \"nodemon chat.php\" \"nodemon online.php\" \"nodemon offline.php\" \"nodemon imageSocket.php\" \"nodemon chatUser.php\" \"nodemon isTyping.php\" \"nodemon isNotTyping.php\"",
     "mainstart2": "concurrently \"serve -s  public -l http://iadvert.ir/\" \"php -S 127.0.0.1:8000\" nodemon server.php\" \" nodemon chat.php\" \" nodemon online.php\" \" nodemon offline.php\" \" nodemon imageSocket.php\" \" nodemon chatUser.php\" \" nodemon isTyping.php\" \" nodemon isNotTyping.php\""
   },
